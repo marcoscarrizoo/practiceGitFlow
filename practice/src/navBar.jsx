@@ -6,7 +6,7 @@ const navBar = () => {
             <h1>
             navbar!!!
             </h1>
-            <h1> segundo cambio de brian</h1>
+            <h1> ahora brian2</h1>
         </div>
     )
 }
