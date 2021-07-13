@@ -1,7 +1,42 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+git remote -v
+```
 
+Devuelve
+```
+origin  https://github.com/kwaale/practiceGitFlow.git (fetch)
+origin  https://github.com/kwaale/practiceGitFlow.git (push)
+```
+
+Por facilidad se renombran con:
+```
+git remote rename <original> <nuevo nombre>
+git remote rename origin knut
+```
+Vamos a la url orginal
+https://github.com/marcoscarrizoo/practiceGitFlow.git
+
+La agregamos como repositorio remoto origin
+
+```
+git remote add origin htps://github.com/marcoscarrizoo/practiceGitFlow.git
+```
+
+```
+git remote -v
+//Devuelve
+    knut    https://github.com/kwaale/practiceGitFlow.git (fetch)
+    knut    https://github.com/kwaale/practiceGitFlow.git (push)
+    origin  htps://github.com/marcoscarrizoo/practiceGitFlow.git (fetch)
+    origin  htps://github.com/marcoscarrizoo/practiceGitFlow.git (push)
+```
+
+Crea la rama y coloca sobre ella.
+```
+git checkout -b 'nueva rama'
+```
 ## Available Scripts
 
 In the project directory, you can run:
