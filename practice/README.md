@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Video git
 
 ```
 git remote -v
@@ -37,6 +37,21 @@ Crea la rama y coloca sobre ella.
 ```
 git checkout -b 'nueva rama'
 ```
+
+Luego de hacer el commit
+Hacemos el ```push origin``` en este caso habiamos renombrado
+```
+git push origin 'nueva-rama' antes
+git push knut nueva-rama
+
+```
+
+Vamos a solicitar que se haga el cambio a local
+
+```
+git checkout -b 'nueva rama'
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
